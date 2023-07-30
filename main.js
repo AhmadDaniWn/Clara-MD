@@ -99,7 +99,7 @@ const connectionOptions = {
 	    version,
         printQRInTerminal: true,
         auth: state,
-        browser: ['Clara - MD', 'Safari', '3.1.0'], 
+        browser: ['BOTZ - BOTZ', 'Safari', '3.1.0'], 
 	      patchMessageBeforeSending: (message) => {
                 const requiresPatch = !!(
                     message.buttonsMessage 

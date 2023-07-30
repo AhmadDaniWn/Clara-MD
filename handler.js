@@ -1392,7 +1392,7 @@ let mssg = {
 let msg = {
         premium: 'Maaf Kak, Tapi Fitur Ini Hanya Bisa Di Gunakan Oleh User Premium',
         group: 'Fitur Ini Hanya Bisa Digunakan Di Dalam Grup',       
-        botAdmin: 'Jadikan Clara Sebagai Admin Terlebih Dahulu Agar Bisa Menggunakan Fitur Ini',
+        botAdmin: 'Jadikan Botz Sebagai Admin Terlebih Dahulu Agar Bisa Menggunakan Fitur Ini',
         restrict: 'Restict Belum Di Nyalakan Untuk Chat Ini'}[type]
   if (msg) return conn.reply(m.chat, msg, fkon)
   let daftar = {
